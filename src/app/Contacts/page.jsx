@@ -5,9 +5,9 @@ import Image from 'next/image';
 import { useInView } from 'react-intersection-observer';
 import emailjs from '@emailjs/browser';
 
-const SERVICE_ID = 'service_urs7udh';
-const TEMPLATE_ID = 'template_4om6u5o';
-const USER_ID = 'RUXfSdoUIcL5hhX2N';
+const SERVICE_ID = 'service_g09bv5e';
+const TEMPLATE_ID = 'template_pigsc4e';
+const USER_ID = '7VESY3SpMn_9iJ5Vp';
 
 emailjs.init(USER_ID);
 
