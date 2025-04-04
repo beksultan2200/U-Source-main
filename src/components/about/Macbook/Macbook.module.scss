@@ -1,0 +1,50 @@
+.Macbook {
+  display: flex;
+  padding-top: 5px;
+  padding-bottom: 2rem;
+  position: relative;
+  align-items: flex-start;
+  background-position: center;
+  background: url(/about/Macbook.png);
+  justify-content: center;
+  overflow: hidden;
+  height: max-content;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: calc(var(--index) * 25);
+  > img {
+    width: 76%;
+    height: 90%;
+  }
+  > button {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  > iframe {
+    width: 76%;
+    height: 90%;
+    aspect-ratio: auto 408.231 / 271.629;
+  }
+}
+
+.dNone {
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .Macbook {
+    > button {
+      width: 30.457px !important;
+      height: 30.457px !important;
+      > img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
